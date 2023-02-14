@@ -6,9 +6,13 @@ authors = ["Kati Ardelle <katarina.schulze@tutanota.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+earthengine-api = "^0.1.338"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+bce_eclipses = "bce_eclipses"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
