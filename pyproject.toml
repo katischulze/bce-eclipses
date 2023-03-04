@@ -7,6 +7,9 @@ authors = ["Kati Ardelle <katarina.schulze@tutanota.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 earthengine-api = "^0.1.338"
+folium = "^0.14.0"
+ipython = "^8.10.0"
+notebook = "^6.5.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
