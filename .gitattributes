@@ -1,2 +1,1 @@
-auth.json filter=git-crypt diff=git-crypt
-service_account.json filter=git-crypt diff=git-crypt
+secrets/* filter=git-crypt diff=git-crypt
